@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "advpowermanager3:hvchargingbench"
+    },
+    "facing=north": {
+      "model": "advpowermanager3:hvchargingbench"
+    },
+    "facing=east": {
+      "model": "advpowermanager3:hvchargingbench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advpowermanager3:hvchargingbench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advpowermanager3:hvchargingbench",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "advpowermanager3:hvchargingbench",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "advpowermanager3:hvchargingbench",
+      "x": 90
+    }
+  }
+}

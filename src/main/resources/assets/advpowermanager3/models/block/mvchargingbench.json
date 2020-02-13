@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "advpowermanager3:blocks/mvbench-bottom",
+    "up": "advpowermanager3:blocks/mvbench-top",
+    "north": "advpowermanager3:blocks/mvbench-ne",
+    "east": "advpowermanager3:blocks/mvbench-ne",
+    "south": "advpowermanager3:blocks/mvbench-sw",
+    "west": "advpowermanager3:blocks/mvbench-sw",
+    "particle": "advpowermanager3:blocks/mvbench-bottom"
+  }
+}

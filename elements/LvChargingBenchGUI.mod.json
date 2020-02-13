@@ -1,0 +1,259 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "LVChargingBench",
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 0,
+          "onSlotChanged": {
+            "name": "ChargingBenchRedstoneSlot"
+          },
+          "name": "Slot #0",
+          "x": 300,
+          "y": 168
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning bolt.png",
+          "name": "lightning bolt.png",
+          "x": 290,
+          "y": 113
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 1,
+          "onSlotChanged": {
+            "name": "ChargingBenchUpgradeSlot"
+          },
+          "name": "Slot #1",
+          "x": 552,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 2,
+          "onSlotChanged": {
+            "name": "ChargingBenchUpgradeSlot"
+          },
+          "name": "Slot #2",
+          "x": 552,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 3,
+          "onSlotChanged": {
+            "name": "ChargingBenchUpgradeSlot"
+          },
+          "name": "Slot #3",
+          "x": 552,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 4,
+          "onSlotChanged": {
+            "name": "ChargingBenchUpgradeSlot"
+          },
+          "name": "Slot #4",
+          "x": 552,
+          "y": 186
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 5,
+          "name": "Slot #5",
+          "x": 363,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 6,
+          "name": "Slot #6",
+          "x": 399,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 7,
+          "name": "Slot #7",
+          "x": 435,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 8,
+          "name": "Slot #8",
+          "x": 471,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 9,
+          "name": "Slot #9",
+          "x": 363,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 10,
+          "name": "Slot #10",
+          "x": 399,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 11,
+          "name": "Slot #11",
+          "x": 435,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 12,
+          "name": "Slot #12",
+          "x": 471,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 13,
+          "name": "Slot #13",
+          "x": 363,
+          "y": 186
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 14,
+          "name": "Slot #14",
+          "x": 399,
+          "y": 186
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 15,
+          "name": "Slot #15",
+          "x": 435,
+          "y": 186
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 16,
+          "name": "Slot #16",
+          "x": 471,
+          "y": 186
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

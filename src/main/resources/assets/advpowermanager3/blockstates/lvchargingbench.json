@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "advpowermanager3:lvchargingbench"
+    },
+    "facing=north": {
+      "model": "advpowermanager3:lvchargingbench"
+    },
+    "facing=east": {
+      "model": "advpowermanager3:lvchargingbench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advpowermanager3:lvchargingbench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advpowermanager3:lvchargingbench",
+      "y": 270
+    }
+  }
+}

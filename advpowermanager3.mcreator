@@ -1,0 +1,192 @@
+{
+  "id_map": {
+    "GUI": 2
+  },
+  "mod_elements": [
+    {
+      "name": "AdvancedPowerManagment",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargingBenchOnTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChargingBenchOnDestroyed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChargingBenchOnRedstoneOn",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChargingBenchOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LVChargingBench",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "MVChargingBench",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HVChargingBench",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "ChargingBenchRedstoneSlot",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChargingBenchUpgradeSlot",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChargingBenchChargingSlot",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LvChargingBenchGUI",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.lvchargingbench.name": "LV Charging Bench",
+      "tile.hvchargingbench.name": "HV Charging Bench",
+      "itemGroup.tabadvancedpowermanagment": "Advanced Power Managment 3",
+      "tile.mvchargingbench.name": "MV Charging Bench"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "advpowermanager3",
+    "modName": "AdvPowerManager3",
+    "version": "1.0.0",
+    "author": "MagmaMac",
+    "websiteURL": "https://mltech.net.au",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "ic2"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "usesProFeatures": false,
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000105419
+}

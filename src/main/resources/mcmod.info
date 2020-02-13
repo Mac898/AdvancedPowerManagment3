@@ -1,0 +1,23 @@
+[
+  {
+    "modid": "advpowermanager3",
+    "name": "AdvPowerManager3",
+    "description": "",
+    "version": "1.0.0",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://mltech.net.au",
+    "updateUrl": "",
+    "authorList": [
+      "MagmaMac",
+      "MCreator"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [
+      "ic2"
+    ],
+    "useDependencyInformation": "true"
+  }
+]

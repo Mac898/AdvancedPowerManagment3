@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "tab",
+  "definition": {
+    "name": "Advanced Power Managment 3",
+    "icon": {
+      "value": "CUSTOM:LVChargingBench"
+    },
+    "showSearch": false
+  }
+}

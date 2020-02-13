@@ -1,0 +1,4 @@
+tile.lvchargingbench.name=LV Charging Bench
+tile.hvchargingbench.name=HV Charging Bench
+itemGroup.tabadvancedpowermanagment=Advanced Power Managment 3
+tile.mvchargingbench.name=MV Charging Bench

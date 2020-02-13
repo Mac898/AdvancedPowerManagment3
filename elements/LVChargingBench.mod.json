@@ -1,0 +1,106 @@
+{
+  "_fv": 5,
+  "_type": "block",
+  "definition": {
+    "texture": "lvbench-bottom",
+    "textureTop": "lvbench-top",
+    "textureLeft": "lvbench-ne",
+    "textureFront": "lvbench-ne",
+    "textureRight": "lvbench-sw",
+    "textureBack": "lvbench-sw",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 1,
+    "hasTransparency": true,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "LV Charging Bench",
+    "specialInfo": [],
+    "hardness": 0.75,
+    "resistance": 5.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:AdvancedPowerManagment"
+    },
+    "destroyTool": "axe",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": true,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 10,
+    "isReplaceable": false,
+    "isFlammable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": true,
+    "inventorySize": 18,
+    "inventoryStackSize": 1,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": false,
+    "inventoryOutSlotIDs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "onRightClicked": {
+      "name": "OnBlockRightClicked"
+    },
+    "onTickUpdate": {
+      "name": "ChargingBenchOnTick"
+    },
+    "onDestroyedByPlayer": {
+      "name": "ChargingBenchOnDestroyed"
+    },
+    "onDestroyedByExplosion": {
+      "name": "ChargingBenchOnDestroyed"
+    },
+    "onRedstoneOn": {
+      "name": "ChargingBenchOnRedstoneOn"
+    },
+    "onRedstoneOff": {
+      "name": "ChargingBenchOnRedstoneOff"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}
